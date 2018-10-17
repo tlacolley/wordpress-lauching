@@ -1,0 +1,28 @@
+.btn_mail{
+    background: $primary;
+    color: white;
+    border-radius: 10px;
+}
+.btn_mail:hover{
+    border: 1px solid $primary;
+    color: $primary;
+    background-color: white
+}
+.btn_mail:active{
+    border: 1px solid rgb(195, 195, 195);
+    color: black;
+}
+.btn_close{
+    background: $secondary;
+    color: white;
+    border-radius: 10px;
+}
+.btn_close:hover{
+    border: 1px solid $secondary;
+    color: $secondary;
+    background-color: white
+}
+.btn_close:active{
+    border: 1px solid rgb(195, 195, 195);
+    color: black;
+}

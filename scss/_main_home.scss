@@ -1,7 +1,10 @@
+
+
 .mainHome{
 
     background-image: url('https://i.redd.it/24y4a814zy801.jpg');
-    padding:  10% 2%;
+    height: 100%;
+    padding:  20% 2% 10%;
 
 h1, h2{
     color: $primary;
@@ -12,14 +15,23 @@ h1, h2{
 }
 
 p{
+    font-size: 1rem;
     padding-top: 3rem;
     color: white;
     text-align: center;
     a{
-        color: white
-        
+        color: white;
+        text-decoration: underline;
+
+    }
+    a:hover{
+        color: $primary;
+        text-decoration: underline;
+
     }
 }
+
+
 }
 
 
@@ -38,13 +50,15 @@ p{
 
 @media screen and (min-width: 830px) {
     .mainHome{
-        padding: 10% 5%;
+        height: 100%6;
+        padding: 6% 5%;
         h1, h2{
 
-            font-size: 3rem;
+            font-size: 5rem;
         }
         p{
-            padding: 3rem 20%;
+            font-size: 1.5rem;
+            padding: 5rem 20% 0%;
 
         }
 
