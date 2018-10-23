@@ -33,7 +33,7 @@ get_header();
     include 'partials/date_since.php';
 
 // calcul difference time with Human time
-    print diff_time_stamp($timeNow, $timeRelease);
+    // print diff_time_stamp($timeNow, $timeRelease);
     // var_dump( $humanTimeDiff);
     // printf( _x( '%s ago ', '%s   '), $humanTimeDiff );
 

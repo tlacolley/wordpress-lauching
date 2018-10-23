@@ -16,21 +16,25 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+
+         <form id="formMail" action="." method="post" >
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Your name:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input type="text" class="form-control" id="recipient-name" name="inputName">
           </div>
           <div class="form-group">
             <label for="message-text" class="col-form-label">Your mail:</label>
-            <input type="mail" class="form-control" name="inputmail" value="">
+            <input type="mail" class="form-control" id="recipient-mail" name="inputMail" value="">
           </div>
-        </form>
+
       </div>
+
       <div class="modal-footer">
+          <?php echo apply_filters( 'gglcptch_display_recaptcha', '' ); ?>
         <button type="button" class="btn_close" data-dismiss="modal">Close</button>
-        <button type="button" class="btn_mail">Send message</button>
+        <button type="submit" class="btn_mail">Send message</button>
       </div>
+  </form>
     </div>
   </div>
 </div>
